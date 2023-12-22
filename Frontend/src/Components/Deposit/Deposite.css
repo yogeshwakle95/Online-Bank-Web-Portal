@@ -1,0 +1,175 @@
+.container561 {
+  margin: 100px auto;
+  text-align: center;
+  padding: 0;
+  width: 40%;
+  height: 450px;
+  box-shadow: 6px 2px 16px rgba(136, 165, 191, 0.48),
+    -6px -2px 16px rgba(255, 255, 255, 0.8);
+}
+.rtr1 {
+  background-color: black;
+  color: white;
+  height: 40px;
+
+
+}
+
+.main561 {
+  margin: 10px 10px 0px 10px;
+  padding: 30px;
+}
+
+.sub-container1-561 {
+  text-align: left;
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 1.5rem;
+  padding: 5px;
+}
+
+.sub-container2-561 {
+  text-align: left;
+  padding-left: 4rem;
+}
+
+.selector-561 {
+  padding-left: 4rem;
+}
+.sub-container2-561 select {
+  font-size: 15px;
+  font-family: "Nunito";
+  font-style: normal;
+  color: rgb(65, 62, 62);
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  height: 40px;
+  border: 1px solid #8699da;
+  border-radius: 0.5rem;
+}
+
+.sub-container2-561 p {
+  letter-spacing: 0.1em;
+  font-family: "Nunito";
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.sub-container3-561 {
+  text-align: left;
+  padding-left: 4rem;
+  font-size: 15px;
+  margin-top: 2rem;
+  /* width: 300px; */
+}
+
+.sub-container3-561 p {
+  letter-spacing: 0.1em;
+  font-size: 15px;
+  font-family: "Nunito";
+  font-weight: 300;
+}
+
+.sub-container3-561 input {
+  height: 40px;
+  border: 1px solid #8699da;
+  border-radius: 0.5rem;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: #000000;
+
+  /* border-color: ; */
+}
+
+.button-container1-561 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+/* .button-container1 button{ 
+                                         background-color: #8699da;      
+                                     margin: 5px;   
+                                        font-size: 15px;   
+                                         color: white;    
+                                         padding: 1%;    } */
+
+.button-container1-561 .btn1 {
+  width: 30%;
+  height: 40px;
+  margin: 10px;
+  background-color: #8699da;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid #8699da;
+  font-weight: bold;
+}
+
+.button-container1-561 .btn2 {
+  width: 125%;
+  height: 40px;
+  margin: 10px;
+  background-color: #8699da;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid #8699da;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1400px) {
+  .container561 {
+    width: 50%;
+    height: 450px;
+    box-shadow: 6px 2px 16px rgba(136, 165, 191, 0.48),
+      -6px -2px 16px rgba(255, 255, 255, 0.8);
+  }
+
+  .sub-container2-561 select,
+  .sub-container3-561 input {
+    width: 100%;
+  }
+
+  .sub-container3-561 {
+    width: 100%;
+  }
+
+  .button-container1-561 {
+    width: 100%;
+  }
+
+  .button-container1-561 .btn1,
+  .button-container1-561 .btn2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container561 {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+  }
+
+  .sub-container2-561 select,
+  .sub-container3-561 input {
+    width: 100%;
+  }
+
+  .sub-container3-561 {
+    width: 100%;
+  }
+
+  .button-container1-561 {
+    width: 100%;
+  }
+
+  .button-container1-561 .btn1,
+  .button-container1-561 .btn2 {
+    width: 100%;
+  }
+}

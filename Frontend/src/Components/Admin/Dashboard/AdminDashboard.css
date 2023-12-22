@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3rem;
+    font-size: 25px;
+}
+.mainContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.piechart{
+  width: 650px;
+  
+ min-height: 550px;
+}
+.d1{
+    width: 600px;
+    height: 600px;
+    margin: 100px;
+    position: relative;
+    top: 0px;
+}
+.d1 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 20px;
+    color: gray;    
+}
+/* .d2{
+    width: 400px;
+    height: 400px;
+    
+} */
+.userContainer {
+    
+    
+}
+.totalUser {
+    width:350px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(110, 109, 109);
+
+}
+.blockedUser {
+    width:350px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(107, 107, 107);
+
+}
+
+.totalUser p {
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    padding-top: 15px;
+    
+
+}
+.blockedUser p {
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    padding-top: 15px;
+    
+}
+@media screen and (max-width:1000px) {
+    .heading{
+        font-family: 'Times New Roman', Times, serif;
+        margin: 3rem;
+        font-size: 15px;
+    }
+    .d1{
+        width: 300px;
+        height: 300px;
+       margin: 70px;
+    }
+    /* .piechart{
+        display: grid;
+        grid-template-columns: 1fr ;
+        width: 40%;
+        min-height: 400px;
+        margin: 70px;
+    } */
+    .totalUser {
+        width:250px;
+        height: 150px;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgb(110, 109, 109);
+    }
+    .blockedUser {
+        width:250px;
+        height: 150px;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgb(107, 107, 107);
+    
+    }
+    .totalUser p {
+        font-size: 25px;
+        padding-top: 15px;
+        
+    
+    }
+    .blockedUser p {
+        font-size: 25px;
+        padding-top: 15px;
+        
+    }
+    
+}
+@media screen and (max-width:750px) {
+    .d1{
+        width: 250px;
+        height: 250px;
+    }
+    /* .piechart{
+        display: grid;
+        grid-template-columns: 1fr ;
+        width: 20%;
+        min-height: 100px;
+        margin: 60px;
+    }*/
+    .totalUser {
+        width:160px;
+        height: 100px;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgb(110, 109, 109);
+    }
+    .blockedUser {
+        width:160px;
+        height: 100px;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgb(107, 107, 107);
+    
+    }
+    .totalUser p {
+        font-size: 18px;
+        padding-top: 15px;
+        
+    
+    }
+    .blockedUser p {
+        font-size: 18px;
+        padding-top: 15px;
+        
+    }
+} 

@@ -1,0 +1,36 @@
+.iit1{
+    background-color: #212529;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.iit2_btn{
+   margin-top: 50px;
+    display: flex;
+    position: relative;
+   bottom: 10px;
+    text-decoration: none;
+}
+.iit2_btn_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+    width: 5%;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+#iit2_icon{
+    padding-right :5px;
+}

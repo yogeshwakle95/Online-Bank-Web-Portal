@@ -1,0 +1,55 @@
+.btnButton-primary{
+    display: flex;
+    
+    position: relative;
+   margin-top: 50px;
+   bottom: 10px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btnButton-primary > .btnButton-primary-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+    width: 5%;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pagination .page-link {
+    color: rgb(255, 255, 255);
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    color: white;
+  }
+  .pagination .page-item .page-link {
+    color: rgb(0, 0, 0);
+  }
+.btnButton-primary > .btnButton-primary-link:hover{
+   opacity: 0.5;
+}
+.nit4{
+    background-color: #212529;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ font-family: 'Times New Roman', Times, serif;
+
+}
+.paginationTransaferHistory{
+  
+   margin: 470px 850px;
+   position: absolute;
+   top: 300px;
+   
+}

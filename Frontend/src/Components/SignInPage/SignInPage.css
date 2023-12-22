@@ -1,0 +1,162 @@
+.main-container{
+    box-shadow: 15px 10px 10px lightgrey;
+    height: 500px;
+    width: 850px;
+    margin: 200px auto;
+background-color:rgb(250, 250, 250) ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.imageContainer {
+    width: 420px;
+    position: relative;
+    right: 13px;
+    height: 500px;
+}
+.submainContainer{
+    margin-left: 10px;
+}
+.container{
+display: grid;
+grid-template-columns: 1fr ;
+
+}
+.sub-container11 .p1{
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 800;
+
+    letter-spacing: 0.1em;
+    padding-bottom: 30px;
+}
+.sub-container11 .p2{
+    font-size: 14px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 20px;
+    letter-spacing: 0.1em;
+    
+}
+.sub-container2-username{
+    display: flex;
+    margin-left: 50px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    
+}
+.sub-container2-password{
+    display: flex;
+    margin-left: 50px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    
+    line-height: 38px;
+    letter-spacing: 0.1em;
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    row-gap: 20px;
+}
+.input{
+    height: 33px;
+    width: 75%;
+    border-radius: 0.7rem;
+    border: 1px solid #8699DA;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    
+}
+
+.btn-container4{
+    width: 45%;
+    margin: 10px auto;
+    height: 40px;
+    
+}
+.btn-container4 button{
+    border-radius: 1rem;
+    border:1px solid #8699DA;
+    background-color: white;
+    color: #8699DA;
+    font-size: 19px;
+
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);}
+
+.btn-container4 button:hover{
+  border-radius: 1rem;
+  transition: all 0.5s;
+  border:1px solid #8699DA;
+  color: white;
+  background-color: #8699DA;
+  font-size: 19px;
+  box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+  animation:backwards;
+}
+
+.input{
+    font-size: 17px;
+    text-align: left;
+    padding-left:10px ;
+    
+}
+.forget-password{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 20px;
+    letter-spacing: 0.1em;
+    padding-left: 34px;
+}
+.validation{
+    padding: 0;
+    margin: 0;
+    color: #e74c3c;
+    float: left;
+}
+.radio1{
+    flex: none;
+order: 0;
+flex-grow: 0;
+}
+.eye-icon{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 27px;
+    right: 70px;
+    color: #C8D3F9;
+}
+
+
+
+@media only screen and (max-width:600px){
+    .main-container{
+        box-shadow: 15px 10px 10px lightgrey;
+        height: unset;
+        width: unset;
+        margin: unset;
+        min-width: 100vw;
+        min-height: 100vh;
+       
+  
+    }
+    .imageContainer{
+        display: none;
+    }
+}

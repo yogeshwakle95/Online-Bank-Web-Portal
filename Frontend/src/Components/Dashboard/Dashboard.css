@@ -1,0 +1,290 @@
+body{
+    background-image: url("");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.main-container-dashboard{
+    
+    
+    min-height:82vh;
+}
+.dashboard-main-container{
+    margin: 40px auto;
+    border: 1px solid rgb(255, 255, 255);
+    height: 500px;
+    width: 85%;
+    /* box-shadow: 0px 0px 30px lightgrey; */
+    background-color: white;
+    /* display: grid;
+    grid-template-columns: 4fr 1fr; */
+}
+.new-dashboard-link{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 20px;
+   text-decoration: none;
+}
+.viewDetails-link{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+}
+.withdrawal-text {
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+}
+
+.deposit-text {
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+}
+.dashboard-container{
+    display: grid;
+     grid-template-columns: 2fr 1fr;
+     row-gap: 30px;
+     width: 80%;
+     margin: 100px auto;
+     column-gap: 30px;
+}
+.account-text{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+}
+.primary-account-text  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+height: 100px;
+color: white;
+background-color: rgb(88, 88, 88);
+font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+   
+    box-shadow: 0px 10px 10px gray;
+}
+.savings-account-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 100px;
+    color: white;
+    background-color: #a3b0df;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    
+    box-shadow: 0px 10px 10px gray;
+}
+.show-balance-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(17, 17, 17);
+    height: 100px;
+    letter-spacing: 0.2rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border: 1px solid #8699DA;
+    box-shadow: 0px 10px 10px gray;
+    background-color: #ececec;
+    font-size: 25px;
+    font-weight: 600;
+}
+.show-balance-container > button{
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Times New Roman', Times, serif;
+color: white;
+background-color: #98a7dd;
+border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.show-balance-container > button >i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+   
+}
+.show-balance-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(17, 17, 17);
+    height: 100px;
+    letter-spacing: 0.2rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border: 1px solid #8699DA;
+    box-shadow: 0px 10px 10px gray;
+    background-color: #ececec;
+    font-size: 25px;
+    font-weight: 600;
+    }
+.show-balance-container1 > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgb(88, 88, 88);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    }
+    .show-balance-container1 > button >i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+       
+    }
+    
+
+
+
+.deposit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 70%;
+    margin: 0px auto;
+}
+.withdrawal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 70%;
+    margin: 0px auto;
+}
+.withdrawal-text-cotainer{
+    display: grid;
+}
+.deposit-text-cotainer{
+    display: grid;
+}
+.withdrawal-text{
+    font-size: 25px;
+    font-weight: 700;
+}
+.deposit-text{
+    font-size: 25px;
+    font-weight: 700;
+}
+#icons1{
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@media screen and (max-width:1300px) {
+    .new-dashboard-link {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .primary-account-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .savings-account-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    
+}
+@media screen and (max-width:950px) {
+    .dashboard-main-container {
+        margin: 40px auto;
+        border: 1px solid rgb(255, 255, 255);
+        height: 500px;
+        width: 85%;
+        background-color: white;
+        box-shadow: none;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .dashboard-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        row-gap: 30px;
+        width: 100%;
+        margin: 10px auto;
+        column-gap: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .primary-account-text {
+      
+        font-family: 'Times New Roman', Times, serif;
+        font-size: clamp(20px,7px,21px);
+       
+    }
+    .savings-account-text {
+        font-size: clamp(20px,7px,21px);
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+@media screen and (max-width:700px) {
+    .dashboard-container {
+        display: grid;
+        grid-template-columns: 2fr;
+        row-gap: 30px;
+        width: 100%;
+        margin: 10px auto;
+        column-gap: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .new-dashboard-link {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .primary-account-text {
+      
+        font-family: 'Times New Roman', Times, serif;
+        font-size: clamp(15px,5px,21px);
+       
+    }
+    .savings-account-text {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: clamp(15px,5px,21px);
+    }
+    .show-balance-container > button{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: clamp(15px,5px,15px);
+    }
+}
+@keyframes example {
+    0%   { color: black;  top:0px; bottom: 0px;}
+    25%  {  top:0px;bottom: 5px;}
+    50%  { color: black;  top:5px;bottom: 0px;}
+      75%  { top:0px;bottom: 5px;}
+       100%  { top:5px;bottom: 0px;}
+    
+    
+  }

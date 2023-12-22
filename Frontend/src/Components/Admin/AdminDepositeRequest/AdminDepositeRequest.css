@@ -1,0 +1,69 @@
+.Admin-chequebook-container{
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0px 0px 20px lightgrey;
+   border: 2px solid black;
+    
+
+}
+.Admin-chequebook-heading{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #6f88db;
+    border-bottom: 2px solid black;
+    
+}
+.Admin-chequebook-head{
+    margin: 20px auto;
+    width: 86%;
+    background-color: black;
+    color: white;
+}
+.Admin-chequebook-body{
+    position: relative;
+    bottom: 40px;
+    width: 85%;
+    margin: 0px auto;
+    background-color: #6f88d8;
+}
+.Rows{
+    border: 1px solid white;
+    
+}
+.head-cols{
+    border: 1px solid white;
+}
+.Cols{
+    border: 0.5px solid #8699DA;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+}
+.Admin-chequebook-body .Cols >button{
+    border: 1px solid #8699DA ;
+    color: white;
+    background-color: #8699DA;
+    height: 40px;
+}
+.pagination .page-link {
+    color: rgb(255, 255, 255);
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    color: white;
+  }
+  .pagination .page-item .page-link {
+    color: rgb(0, 0, 0);
+  }
+  .paginationTransaferHistory{
+  
+    margin: 470px 850px;
+    position: absolute;
+    top: 300px;
+    
+ }

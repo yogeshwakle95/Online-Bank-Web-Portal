@@ -1,0 +1,119 @@
+.rnt-1{
+    border: 1px solid black;
+    margin: 30px auto;
+    min-height: 700px;
+    width: 40%;
+    box-shadow: 0px 0px 30px gray;
+}
+.rnt-6{
+   
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+      font-weight: 700;
+}
+.rnt-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+.rnt-3{
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+}
+.rnt-4{
+    display: flex;
+}
+.ert-6{
+    display: grid;
+    row-gap: 30px;
+}
+.ert-6{
+    padding-top: 30px;
+}
+.ert-2,.ert-3,.ert-4,.rnt-7{
+    width: 60%;
+    margin: 0px auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ert-11,.ert-12,.ert-13,.rnt-8{
+    display: flex;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ert-5{
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+      font-weight: 700;
+      padding-bottom: 5px;
+}
+.tre-1{
+   
+    margin: 0px auto;
+    
+    width: 20%;
+ 
+    font-family: 'Times New Roman', Times, serif;
+}
+.rnt-6{
+    background-color: black;
+    color: white;
+}
+.tre-10{
+    display: flex;
+    position: relative;
+  
+   bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.recepientSearchDropdown{
+    background-color: lightgrey;
+}
+.verifiedAccount{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.verified1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 20px;
+}
+.verified1 > p{
+    display: flex;
+    position: relative;
+   
+   
+}
+.wrt1{
+    display: flex;
+  
+    position: relative;
+    top: 5px;
+}
+.scrollerRecipientAccount{
+    width: 50px;
+    overflow-y: scroll;
+    margin-bottom: 12px;
+    height: 100px;
+    
+}
+#browsers:hover{
+color: white;
+background-color: blue;
+cursor: pointer;
+}
+#rr1{
+    background-color: #8699da;
+    border: none;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 0.1rem;
+    padding: 5px;
+    border-radius: 0.5rem;
+}
+button:hover {
+    opacity: 0.5;
+    transition: 0.5s all;
+}

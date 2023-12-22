@@ -1,0 +1,92 @@
+.admin-chequebook-container111{
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0px 0px 20px lightgrey;
+   border: 2px solid black;
+    
+
+}
+.admin-chequebook-heading111{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 20px;
+    color: #6f88db;
+    border-bottom: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+.input1-div >input{
+    border: 1px solid #6f88d8;
+    width: 70%;
+    height: 40px;
+    border-radius: 1rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.chequebook-heading111{
+    display: flex;
+    justify-content: left;
+}
+.admin-chequebook-head111{
+    margin: 20px auto;
+    width: 86%;
+    background-color: black;
+    color: white;
+}
+.admin-chequebook-body111{
+    position: relative;
+    bottom: 40px;
+    width: 85%;
+    margin: 0px auto;
+    background-color: #6f88d8;
+}
+.Rows1{
+    border: 1px solid white;
+    
+}
+
+.Cols1{
+    border: 0.5px solid #8699DA;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+}
+.admin-chequebook-body111 .Cols >button{
+    border: 1px solid #8699DA ;
+    color: white;
+    background-color: #8699DA;
+    height: 40px;
+}
+.approveBtn{
+    text-decoration: none;
+    border: none;
+    width: 50%;
+    height: 30px;
+    color: white;
+    background-color: #8699DA;
+}
+.approveBtn:hover{
+    opacity: 0.5;
+}
+.pagination .page-link {
+    color: rgb(255, 255, 255);
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    color: white;
+  }
+  .pagination .page-item .page-link {
+    color: rgb(0, 0, 0);
+  }
+  .paginationTransaferHistory{
+  
+    margin: 470px 850px;
+    position: absolute;
+    top: 300px;
+    
+ }

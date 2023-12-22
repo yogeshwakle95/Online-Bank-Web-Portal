@@ -1,0 +1,111 @@
+.btnButton{
+    display: flex;
+    position: relative;
+    bottom: 45px;
+    text-decoration: none;
+}
+.btnButton > button{
+    border: none;
+    background-color: black;
+    color: white;
+    height: 40px;
+    text-align: center;
+}
+.btnButton > button:hover{
+   opacity: 0.5;
+}
+.admin-chequebook-heading1111{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.admin-chequebook-container1111{
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0px 0px 20px lightgrey;
+   border: 2px solid black;
+    
+
+}
+.pagination .page-link {
+    color: rgb(255, 255, 255);
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    color: white;
+  }
+  .pagination .page-item .page-link {
+    color: rgb(0, 0, 0);
+  }
+  .paginationTransaferHistory{
+  
+    margin: 470px 850px;
+    position: absolute;
+    top: 300px;
+    
+ }
+
+.input1-div >input{
+    border: 1px solid #6f88d8;
+    width: 70%;
+    height: 40px;
+    border-radius: 1rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.chequebook-heading1111{
+    display: flex;
+    justify-content: left;
+}
+.admin-chequebook-head1111{
+    margin: 20px auto;
+    width: 86%;
+    background-color: black;
+    color: white;
+}
+.admin-chequebook-body1111{
+    position: relative;
+    bottom: 40px;
+    width: 85%;
+    margin: 0px auto;
+    background-color: #6f88d8;
+}
+.Rows1{
+    border: 1px solid white;
+    
+}
+
+.Cols1{
+    border: 0.5px solid #8699DA;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+}
+.admin-chequebook-body1111 .Cols >button{
+    border: 1px solid #8699DA ;
+    color: white;
+    background-color: #8699DA;
+    height: 40px;
+}
+.btnButton_nit1{
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+   bottom: 10px;
+    text-decoration: none;
+}
+.nit3{
+    background-color: #212529;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ font-family: 'Times New Roman', Times, serif;
+}

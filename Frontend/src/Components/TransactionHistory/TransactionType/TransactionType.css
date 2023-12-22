@@ -1,0 +1,46 @@
+.main-container122{
+    min-height:76vh;
+}
+.transType-container{
+    box-shadow: 0px 0px 20px grey;
+    margin: 100px auto;
+    width: 40%;
+    min-height: 250px;
+    padding: 5px;
+
+}
+.transType-container-sub{
+   margin: 50px auto;
+    display: grid;
+
+   row-gap: 20px;
+
+}
+.transType-head{
+    display: flex;
+    margin-left: 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.transType-body{
+    display: flex;
+    width: 70%;
+    margin: 0px auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.transType-btn-container{
+    background-color: #8699DA;
+    border-radius: 0.5rem;
+    width: 15%;
+    margin: 0px auto;
+}
+.transType-btn:hover{
+   opacity: 0.5;
+   color: white;
+}
+.transType-btn{
+    border: none;
+    text-decoration: none;
+   font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+}

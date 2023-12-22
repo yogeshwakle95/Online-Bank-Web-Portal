@@ -1,0 +1,40 @@
+.back-btn{
+    width: 10%;
+    height: 100%;
+    color: white;
+    background: #8699DA;
+    border-radius: 0.5rem;
+    font-size: 17px;
+    box-shadow: 4px 8px 12px rgb(78 99 141 / 6%), inset 0px 4px 12px rgb(200 211 249 / 60%);
+    margin-top: 60px;
+    margin-left: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.primary-col{
+    border: 1px solid #8699DA;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+    background-color: #f4f7ff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.primary-body{
+    width: 85%;
+    margin: 0px auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.primaryInfo1{
+    margin: 20px auto;
+    width: 86%;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}

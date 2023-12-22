@@ -1,0 +1,78 @@
+.Admin-chequebook-container1{
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0px 0px 20px lightgrey;
+   border: 2px solid black;
+    
+
+}
+.Admin-chequebook-heading1{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 20px;
+    color: #6f88db;
+    border-bottom: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+.input1-div >input{
+    border: 1px solid #6f88d8;
+    width: 70%;
+    height: 40px;
+    border-radius: 1rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.chequebook-heading{
+    display: flex;
+    justify-content: left;
+}
+.Admin-chequebook-head1{
+    margin: 20px auto;
+    width: 86%;
+    background-color: black;
+    color: white;
+}
+.Admin-chequebook-body1{
+    position: relative;
+    bottom: 40px;
+    width: 85%;
+    margin: 0px auto;
+    background-color: #6f88d8;
+}
+.Rows1{
+    border: 1px solid white;
+    
+}
+.head-cols1{
+    border: 1px solid white;
+}
+.Cols1{
+    border: 0.5px solid #8699DA;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+}
+.Admin-chequebook-body1 .Cols1 >button{
+    border: 1px solid #8699DA ;
+    color: white;
+    background-color: #8699DA;
+    height: 40px;
+}
+.nit1{
+    background-color: #212529;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ font-family: 'Times New Roman', Times, serif;
+ margin-top:50px ;
+}
+.container{
+    font-family: 'Times New Roman', Times, serif;
+}
